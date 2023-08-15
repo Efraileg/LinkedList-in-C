@@ -12,7 +12,7 @@ This repository will consist of recreating the different linked lists that exist
 
 Following this order the lists will be recreated.
 
-All the list will have in its headers a typified variable to determinate the type of the values to be stored in the linked list. 
+All the lists will have in its headers a typified variable to determinate the type of the values to be stored in the linked list. 
 You can change this typedef to your liking.
 
 The instructions for testing the lists will be the same for all lists.
