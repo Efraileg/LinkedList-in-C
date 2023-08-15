@@ -15,9 +15,8 @@ Following this order the lists will be recreated.
 The instructions for testing the lists will be the same for all lists.
 Each list will contain three files:
   - main.c
-  - linkedList.c
   - linkedList.h
-The name of the files can change depending on the name of the linked list.
+(The name of the files can change depending on the name of the linked list).
 
 With these files in your possession, all you need to do is compile these files in C using the following command:
 ```c
