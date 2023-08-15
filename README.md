@@ -13,7 +13,7 @@ This repository will consist of recreating the different linked lists that exist
 Following this order the lists will be recreated.
 
 The instructions for testing the lists will be the same for all lists.
-Each list will contain three files:
+Each list will contain these files:
   - main.c
   - linkedList.h
 (The name of the files can change depending on the name of the linked list).
