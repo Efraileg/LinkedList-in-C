@@ -29,4 +29,4 @@ To run it you will need the following command:
 ./linkedList
 ```
 Simply linked list
-![Imagen de ejemplo](images_linked_list/singleLinkedList.png)
+![Imagen de ejemplo](images_linked_list/simplyLinkedList.png)
