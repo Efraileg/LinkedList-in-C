@@ -16,7 +16,7 @@ int main(void){
 
     typeData* value = NULL;
 
-    for(int i=1; i<=10; i++){
+    for(typeData i=1; i<=10; i++){
         value = malloc(sizeof(typeData));       // Every iteration is allocated a new space in memory to avoid modify the others elements. 
         *value = i;
         insert_element(&linked_list, value);
@@ -29,10 +29,10 @@ int main(void){
     *value = 6;
     erase_element(&linked_list, value);
 
+    /////////////////////////////////////////
+
     value = malloc(sizeof(typeData));
     *value = 3;
-
-    /////////////////////////////////////////
     
     printf("Number of nodes: %lu\n", linked_list.n_nodes);
     printf("Value %d is founded: %d\n", *value, is_in(&linked_list, value));
