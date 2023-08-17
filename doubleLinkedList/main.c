@@ -1,4 +1,3 @@
-
 /*
 Copyright (C) 2023 Efraileg (Eduardo Fraile González)
 
@@ -32,6 +31,7 @@ int main(void){
 
     value = malloc(sizeof(typeData));
     *value = 3;
+
     /////////////////////////////////////////
     
     printf("Number of nodes: %lu\n", linked_list.n_nodes);
@@ -48,22 +48,6 @@ int main(void){
         printf("Value: %d\n", *((typeData*)get_value(&linked_list)));
     }
 
+    erase_all(&linked_list);
     return 0;
 }
-
-/*
-    // If there isn't a next node in the head there is only one element.
-    // The tail also needs to be updated.
-    if(!linked_list->head->next_node){
-        linked_list->tail = NULL;
-    }
-*/
-
-
-/*
-    It cannot works due to the impossibility of assign a value to void.
-
-    // It creates a copy of the value's pointer in case that pointer suffers by free process on the parvaluet of the user.
-    void* new_value = malloc(sizeof(value));       // Alloc new memory for the value's pointer passed by parameter.
-    new_value = value;                             // Assign the value in the new memory space.
-*/
