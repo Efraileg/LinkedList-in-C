@@ -1,8 +1,6 @@
 
 /*
 Copyright (C) 2023 Efraileg (Eduardo Fraile González)
-
-This is a simple test file to prove the library with different values. 
 Obviously values like structures are not allowed due to some functions need a special comparator to them but it can be implemented if it is necessary.
 */
 
