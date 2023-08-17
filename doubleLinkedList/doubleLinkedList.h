@@ -35,13 +35,13 @@ char valid_access_linkedList(struct doubleLinkedList* linked_list)
 }
 
 void next(struct doubleLinkedList* linked_list){
-    if(!linked_list && !linked_list->current_node) return;
+    if(!linked_list || !linked_list->current_node) return;
 
     linked_list->current_node = linked_list->current_node->next_node;
 }
 
 void back(struct doubleLinkedList* linked_list){
-    if(!linked_list && !linked_list->current_node) return;
+    if(!linked_list || !linked_list->current_node) return;
 
     linked_list->current_node = linked_list->current_node->previous_node;
 }
