@@ -218,3 +218,20 @@ char is_in(struct doubleLinkedList* linked_list, void* value){
     to_begin(linked_list);
     return 0;
 }
+
+void erase_all(struct doubleLinkedList* linked_list){
+    
+    if(!valid_access_linkedList(linked_list)) return;
+
+    struct Node* aux = NULL;
+    while(!in_end(linked_list)){
+
+        aux = linked_list->current_node;
+        next(linked_list);
+        free(aux);
+    }
+
+    if(valid_access_linkedList(linked_list)) free(linked_list->current_node);
+    
+    reset_list(linked_list);
+}
