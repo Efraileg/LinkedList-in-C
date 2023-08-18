@@ -10,7 +10,7 @@ This repository will consist of recreating the different linked lists that exist
   - Circular lists.
   - Double circular lists.
 
-The lists will be recreated following this orde.
+The lists will be recreated following this order.
 
 All the lists will have in its headers a typified variable to determinate the type of the values to be stored in the linked list. 
 You can change this typedef to your liking.
@@ -19,16 +19,19 @@ The instructions for testing the lists will be the same for all lists.
 Each list will contain these files:
   - main.c
   - linkedList.h
+
 (The name of the files can change depending on the name of the linked list).
 
 With these files in your possession, all you need to do is compile these files in C using the following command:
-```c
+
+```shell
 gcc main.c -o linkedList
 ```
 
 To run it you will need the following command:
-```c
+
+```shell
 ./linkedList
 ```
 Simply linked list
-![Imagen de ejemplo](images_linked_list/simplyLinkedList.png)
+![Imagen de ejemplo](img/simplyLinkedList.png)
